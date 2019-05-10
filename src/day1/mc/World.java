@@ -16,7 +16,7 @@ public class World {
 	public static void main(String... arg) {
 		Person R = new Person();
 
-		Monster JJBoom = new Monster();
+		Monster JJBoom = new JJBoom();
 
 		Sword _×êÊ¯½£ = Sword.create();
 
@@ -28,5 +28,13 @@ public class World {
 		R.getSword().attack(JJBoom);
 		R.getSword().attack(JJBoom);
 		R.getSword().attack(JJBoom);
+		
+		R r2=new R();
+		r2.getSword();
+		r2.attack();
+		r2.Boom();
+		r2.fly();
+		r2.eat();
+		r2.eat("Êí—l");
 	}
 }

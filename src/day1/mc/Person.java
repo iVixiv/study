@@ -12,9 +12,12 @@ public class Person {
 		sword = mSword;
 	}
 
-	
-	//封装
+	// 封装
 	public Sword getSword() {
 		return sword;
+	}
+
+	public void eat() {
+		System.out.println("人要吃饭");
 	}
 }

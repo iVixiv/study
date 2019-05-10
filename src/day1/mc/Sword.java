@@ -9,7 +9,7 @@ public class Sword {
 	}
 
 	public void attack(Monster monster) {
-		monster.hp = monster.hp - atk;
+		monster.setHp(monster.hp() - atk);
 		monster.live();
 	}
 
